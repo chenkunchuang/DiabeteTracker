@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:textColor="#ff9b58ff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/image_dialog_textView"
+        android:layout_gravity="center_horizontal|top"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp" />
+
+    <ImageView
+        android:layout_width="197dp"
+        android:layout_height="79dp"
+        android:id="@+id/image_dialog_imageView"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_dialog_description" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="220dp"
+        android:layout_height="34dp"
+        android:layout_weight="0.16"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:text="Yes"
+            android:id="@+id/yes_button"
+            android:layout_weight="0.23" />
+
+        <Button
+              android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:text="No"
+            android:id="@+id/no_button"
+            android:layout_weight="0.23" />
+        </LinearLayout>
+
+</LinearLayout>
+
+

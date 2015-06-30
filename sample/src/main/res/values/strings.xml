@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cropper Sample</string>
+    <string name="title">Cropper</string>
+
+    <string-array name="showGuidelinesArray">
+        <item>Guidelines=Off</item>
+        <item>Guidelines=On Touch</item>
+        <item>Guidelines=On</item>
+    </string-array>
+
+</resources>

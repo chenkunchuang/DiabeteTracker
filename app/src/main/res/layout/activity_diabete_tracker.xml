@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".DiabeteTracker" tools:ignore="MergeRootFrame" >
+
+
+    <Button
+        android:layout_width="147dp"
+        android:layout_height="106dp"
+        android:text="@string/take_pic"
+        android:id="@+id/take_pic"
+        android:onClick="takePic"
+        android:layout_gravity="right|bottom" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="106dp"
+        android:text="@string/input_value"
+        android:id="@+id/input_value"
+        android:onClick="aveToDate"
+        android:layout_gravity="left|bottom" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:id="@+id/myListView"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>

@@ -1,0 +1,2 @@
+C:\Users\cchuang\Downloads\ArthurHub-Android-Image-Cropper-3f14d92\sample\build\intermediates\classes\debug
+C:\Users\cchuang\Downloads\ArthurHub-Android-Image-Cropper-3f14d92\sample\build\intermediates\pre-dexed\debug\classes-fcec29ef7f90e965c27ba454a870a8767fcd3cae.jar

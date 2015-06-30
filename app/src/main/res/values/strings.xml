@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Diabete Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_value">Get up-to-date Average</string>
+    <string name="take_pic">Take Pic of Diabetic Meter</string>
+    <string name="image_dialog_description">Image Preview</string>
+    <string name="title_activity_take_pic">TakePicActivity</string>
+    <string name="title_ave_value">Up-to-date Average Blood Sugar Value</string>
+</resources>
